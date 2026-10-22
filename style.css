@@ -79,3 +79,79 @@ h1, h2, h3 {
 .nav-links a:hover {
   color: #2563eb;
 }
+/* Sviluppatore 4: Chi siamo */
+.about {
+  background: #f8fafc;
+}
+
+.about-project {
+  max-width: 720px;
+  margin: 0 auto 60px;
+}
+
+.about-project h3 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.about-project p {
+  color: #334155;
+  margin-bottom: 14px;
+}
+
+.about-subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 28px;
+}
+
+.team-grid,
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.goals-grid {
+  margin-bottom: 0;
+}
+
+.team-card,
+.goal-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 28px 24px;
+  box-shadow: 0 2px 12px #0f172a12;
+}
+
+.team-avatar {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card h4,
+.goal-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.team-role {
+  color: #64748b;
+}
+
+.goal-card {
+  border-top: 4px solid #2563eb;
+}
+
+.goal-card p {
+  color: #64748b;
+}
