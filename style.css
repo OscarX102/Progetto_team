@@ -79,3 +79,88 @@ h1, h2, h3 {
 .nav-links a:hover {
   color: #2563eb;
 }
+/* Sviluppatore 1: Sezione Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 80px 8%;
+  background: #f5f8ff;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-badge {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #2563eb;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: #1e293b;
+}
+
+.hero-highlight {
+  color: #2563eb;
+}
+
+.hero p {
+  max-width: 520px;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  color: #64748b;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 700;
+  box-shadow: 0 8px 20px #2563eb40;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.hero-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column-reverse;
+    padding: 50px 6%;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
